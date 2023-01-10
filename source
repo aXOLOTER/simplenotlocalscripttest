@@ -1,0 +1,36 @@
+
+
+
+game:GetService("RunService").Stepped:Connect(function()
+
+
+
+	local l = game:GetService("Lighting")
+
+	l.Ambient = Color3.fromRGB(62, 82, 114)
+	l.OutdoorAmbient = Color3.fromRGB(255, 255, 255)
+	l.ClockTime = 12.773
+	l.GeographicLatitude = 48
+	l.ExposureCompensation = 0.5
+
+	l.ColorShift_Top = Color3.fromRGB(0,0,0)
+
+	l.ColorShift_Bottom = Color3.fromRGB(0,0,0)
+
+	l.EnvironmentDiffuseScale = 0
+
+	l.EnvironmentSpecularScale = 0
+	
+	
+	
+	l.Atmosphere.Density = 0.208
+	
+	l.Atmosphere.Offset = 0
+	l.Atmosphere.Glare = 0
+	
+	l.Atmosphere.Haze = 0
+	
+	l.Atmosphere.Color = Color3.fromRGB(199, 170, 107)
+	l.Atmosphere.Decay = Color3.fromRGB(92, 60, 13)
+
+end)
